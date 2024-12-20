@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!---
+  Home Page of the Betta Fish website
+  Author:   Paris Jones 
+  Date:     12/3/24 
+  Filename: project2-2.html
+  -->
+
+  <title>Betta Fish</title>
+  <meta charset="utf-8" />
+  <link href="project2-3.css" rel="stylesheet" />
+</head>
+<body>
+
+     <div class="flex-container">
+        <div><a href="project2-2.html">Project2-2: Columns</a></div>
+        <div><a href="project2-3.html">Project 2-3: Forms </a></div>
+        <div><a href="#">Home</a></div> 
+        <div><a href="#">Home</a></div> 
+      </div>
+
+<h2>Responsive Image Gallery</h2>
+
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="photo1.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="photo2.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="photo3.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img_lights.jpg">
+        <img src="photo4.png" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+<h2>Text input fields</h2>
+
+<form>
+    <div class="formRow">
+        <label for="name">Name*</label>
+        <input name="custName" id="name" type="text">
+  
+    </div> 
+
+    <div class="formRow">
+        <label for="street">Street address*</label>
+        <input name="custStreet" id="street" type="street"/>
+    </div>
+
+    <div class="formRow">
+        <label for="city">City*</label>
+        <input name="custCity" id="city" type="city"/>
+    </div>
+    <div class="formRow">
+        <label for="state">State*</label>
+        <input name="custState" id="state" type="state"/>
+    </div>
+
+    <div class="formRow">
+        <label for="zip">Postal code*</label>
+        <input name="custZip" id="zip" type="zip"/>
+    </div>
+
+    <div class="formRow">
+        <label for="phone">Phone number*</label>
+        <input name="custPhone" id="phone" type="phone" />
+    </div>
+  
+    <div class="formRow">
+        <label for="mail">E-mail*</label>
+        <input name="custEmail" id="mail" type="mail"> 
+    </div>
+
+    <div class="formRow">
+        <input type="submit" value="Submit">
+    </div>
+
+    <div class="formRow">
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+</body>
+</html>
